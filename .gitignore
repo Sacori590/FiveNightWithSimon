@@ -1,3 +1,56 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# =========================
+#   SYSTEME (tous OS)
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# =========================
+#   GODOT ENGINE
+# =========================
+
+# Imports & cache
+.import/
+*.import
+
+# UID auto-générés
+*.uid
+
+# Logs & fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Exports / builds
+export/
+build/
+bin/
+
+# =========================
+#   DÉVELOPPEMENT GÉNÉRAL
+# =========================
+
+# Python (si jamais utilisé)
+__pycache__/
+*.pyc
+
+# Node.js (au cas où tu ajoutes un frontend)
+node_modules/
+
+# Autres environnements
+*.env
