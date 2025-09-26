@@ -1,0 +1,10 @@
+72322a848ab928aa5c89f0cb78209805
+::res://::1758879080
+export_presets.cfg::TextFile::-1::1758877266::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::4083847799412836790::1758877266::1758877266::1::::<><><>0<>0<>d08415259f5e33c96cd9a4b5af71c511<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Mateo.glb::PackedScene::5002863910840229813::1758878985::1758879119::1::::<><><>0<>0<>bc23c3b756e9a0f86f820088720c1d90<>res://.godot/imported/Mateo.glb-808e824e63d2d0358295b000ca8bc1b1.scn::uid://tgqnt42egy4a::::res://Mateo_texture.jpg
+player.gd::GDScript::6431078376760347434::1758877266::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::2255283744157359958::1758877266::0::1::::<><><>0<>0<><>::uid://cxvi6k8yglmd3::::res://player.gd
+Mateo_texture.jpg::CompressedTexture2D::1346970026827348170::1758879103::1758879120::1::::<><><>0<>0<>51b14076b672414c46d558c908050591<>res://.godot/imported/Mateo_texture.jpg-47b8f901a2e8b66f8c96a392f35c538e.s3tc.ctex<*>res://.godot/imported/Mateo_texture.jpg-47b8f901a2e8b66f8c96a392f35c538e.etc2.ctex::
+scene.tscn::PackedScene::8346017525831887149::1758877266::0::1::::<><><>0<>0<><>::uid://7eqgt80nx2d3::::res://player.tscn
+::res://Blender_project musea/::1758877266
