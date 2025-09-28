@@ -13,9 +13,20 @@ script = ExtResource("1_4flbx")
 shape = SubResource("CapsuleShape3D_4flbx")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.997452, -0.026156902, 0.066372596, 0.024643179, 0.9994195, 0.023523716, -0.066949375, -0.021828147, 0.9975176, 0.024737597, 0.5863054, -0.13955635)
+transform = Transform3D(0.997452, -0.026156902, 0.066372596, 0.024643179, 0.9994195, 0.023523716, -0.066949375, -0.021828147, 0.9975176, 0.024737597, 0.5863054, -0.5163223)
 current = true
 fov = 80.058586
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Camera3D"]
+transform = Transform3D(1.4504517, 0.024643166, -0.06694937, -0.038036227, 0.9994194, -0.021828137, 0.09651617, 0.023523705, 0.99751747, -0.024967555, -0.024465919, 0.3718874)
+light_energy = 0.01
+light_indirect_energy = 0.01
+light_volumetric_fog_energy = 0.01
+light_specular = 0.01
+shadow_enabled = true
+spot_range = 12.495436
+spot_attenuation = -2.64
+spot_angle = 29.94
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_4flbx")

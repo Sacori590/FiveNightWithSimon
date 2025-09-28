@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://dq54xo2snkhdl"]
+[gd_scene load_steps=3 format=3 uid="uid://dq54xo2snkhdl"]
 
+[ext_resource type="PackedScene" uid="uid://cwdtsgk5litcv" path="res://musea.tscn" id="2_3253y"]
 [ext_resource type="PackedScene" uid="uid://7eqgt80nx2d3" path="res://player.tscn" id="2_nxogm"]
 
 [node name="Node3D" type="Node3D"]
@@ -7,16 +8,4 @@
 [node name="CharacterBody3D" parent="." instance=ExtResource("2_nxogm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.902206, 2.3290024, 7.707286)
 
-[node name="OmniLight3D2" type="OmniLight3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9183464, 1.1123533)
-light_energy = 3.113
-light_indirect_energy = 2.358
-light_volumetric_fog_energy = 6.358
-light_specular = 0.32
-light_bake_mode = 1
-
-[node name="SpotLight3D" type="SpotLight3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09779358, 1.6709976, -0.7072859)
-spot_range = 4.0
-spot_attenuation = -4.91
-spot_angle = 26.600906
+[node name="Musea" parent="." instance=ExtResource("2_3253y")]

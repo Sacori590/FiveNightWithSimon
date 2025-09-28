@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwdtsgk5litcv"]
+
+[ext_resource type="PackedScene" uid="uid://cbft2c4k0fat8" path="res://Blender_project musea/Musea.blend" id="1_2agwh"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_2agwh"]
+data = PackedVector3Array(-1, 0, 1, 1, 0, -1, 1, 0, 1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
+
+[node name="Musea" instance=ExtResource("1_2agwh")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_2agwh")
