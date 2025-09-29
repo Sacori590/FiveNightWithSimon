@@ -20,6 +20,9 @@ shape = SubResource("ConcavePolygonShape3D_78owx")
 [node name="Untitled#StaticBody3D" type="StaticBody3D" parent="." index="1"]
 visible = false
 
+[node name="Untitled" parent="mesh_003" index="0"]
+visible = false
+
 [node name="StaticBody3D" type="StaticBody3D" parent="mesh_003/Untitled" index="0"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="mesh_003/Untitled/StaticBody3D" index="0"]
