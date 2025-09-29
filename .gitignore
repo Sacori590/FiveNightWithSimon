@@ -54,3 +54,4 @@ node_modules/
 
 # Autres environnements
 *.env
+project_metadata.cfg
