@@ -11,23 +11,37 @@ transform = Transform3D(1, 0, 0, 0, 0.70412564, 0, 0, 0, 1, 0, 0, 0)
 script = ExtResource("1_4flbx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.2139442)
 shape = SubResource("CapsuleShape3D_4flbx")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.997452, -0.026156902, 0.066372596, 0.024643179, 0.9994195, 0.023523716, -0.066949375, -0.021828147, 0.9975176, 0.024737597, 0.5863054, -0.5163223)
+transform = Transform3D(0.9976048, -0.019542987, 0.066353925, 0.024646953, 1.4191947, 0.04743334, -0.06695963, -0.032167487, 0.997237, 0.024737597, 0.5863054, -0.41411203)
 current = true
 fov = 80.058586
 
 [node name="SpotLight3D" type="SpotLight3D" parent="Camera3D"]
-transform = Transform3D(0.9974519, 0.024643166, -0.06694937, -0.02615689, 0.9994194, -0.021828135, 0.06637259, 0.023523703, 0.99751747, -0.04459082, -0.030863822, 0.66426575)
+transform = Transform3D(0.99745196, 0.024643166, -0.066949345, -0.026156886, 0.99941945, -0.021828134, 0.06637258, 0.023523703, 0.99751747, -0.117948726, -0.06610507, 1.7567931)
 light_energy = 0.01
 light_indirect_energy = 0.01
 light_volumetric_fog_energy = 0.01
 light_specular = 0.01
 shadow_enabled = true
-spot_range = 12.495436
+spot_range = 3.9830008
 spot_attenuation = -2.64
-spot_angle = 29.94
+spot_angle = 50.856728
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Camera3D/SpotLight3D"]
+transform = Transform3D(0.997452, 0.024643168, -0.06694937, -0.026156891, 0.99941957, -0.021828135, 0.066372596, 0.023523707, 0.9975176, -0.118322596, -0.05010298, 0.20931351)
+light_energy = 0.01
+light_indirect_energy = 0.01
+light_volumetric_fog_energy = 0.01
+light_specular = 0.01
+shadow_enabled = true
+spot_range = 13.609445
+spot_attenuation = -2.64
+spot_angle = 18.621435
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.8065584, 0, 0, 0, 0.6706408, 0, 0, 0)
+visible = false
 mesh = SubResource("CapsuleMesh_4flbx")

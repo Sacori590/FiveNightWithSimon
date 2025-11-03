@@ -6,6 +6,6 @@
 [node name="Node3D" type="Node3D"]
 
 [node name="CharacterBody3D" parent="." instance=ExtResource("2_nxogm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.498848, 2.7012177, 0.7799721)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8450089, 5.770564, 0.7799721)
 
 [node name="Musea" parent="." instance=ExtResource("2_3253y")]
